@@ -23,14 +23,30 @@
 <h2>Fusion Martial Arts</h2>
 <h3>Bloomington Illinois</h3>
 </div>
+<div>
 <img class= "FusionLogo" src="FusionLogo.png" >
+<button id="requestButton">Request Info</button>
+</div>
 </div>
 
 
 <style>
+    h2, h3 {
+        font-family: 'bubblegum-sans', sans-serif;
+        margin: 0;
+    }
     .logos {
         width: 20px;
         height: 20px;
+    }
+    #requestButton {
+        background-color: rgb(47, 255, 64);
+        color: black;
+        border-radius: 4px;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        margin-left: 60px;
     }
     .FusionLogo {
                     width: 100px;
@@ -38,7 +54,7 @@
     }
     .header {
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: auto 2fr;
         align-items: center;
         text-align: center;
     }
@@ -50,6 +66,7 @@
         color: white;
         text-align: center;
         padding: 20px;
+        border-radius: 4px;
         
     }
 
@@ -65,8 +82,9 @@
 
     nav ul.right {
         position: absolute;
-        top: 10px;
+        top: 15px;
         right: 10px;
+        bottom: 10px;
     }
 
     nav ul li {
